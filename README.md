@@ -1,5 +1,5 @@
 # Reto JavaScript: Control de entrada para direcciones IP
-<p>Se quiere implementar un cuadro de texto (input de tipo text) que permita el ingreso de direcciones IP de manera interactiva aplicando las reglas de validación necesarias y suficientes para garantizar el formato adecuado de una dirección IP, mientras el usuario escribe. Se debe usar JavaScript puro o jQuery preferiblemente. Recuerden que la validación se debe realizar mientras el usuario esta escribiendo. Las reglas mínimas son:</p>
+<p>Se quiere implementar un cuadro de texto (input de tipo text) que permita el ingreso de direcciones IP de manera interactiva aplicando las reglas de validación necesarias y suficientes para garantizar el formato adecuado de una dirección IP, mientras el usuario escribe. Se debe usar JavaScript puro. Recuerden que la validación se debe realizar mientras el usuario esta escribiendo. Las reglas mínimas son:</p>
 <ul>
   <li>Primer carácter diferente de punto '.'</li>
   <li>Máxima longitud de la cadena 15 caracteres, pero debe cambiar de acuerdo a los caracteres que se vayan digitando</li>
