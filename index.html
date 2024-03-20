@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Validación de Direcciones IP</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        Reto JavaScript
+    </header>
+    <div class="container">
+        <div class="left-block">
+            <h1>Ingrese una dirección IP</h1>
+            <input class="cuadroTexto" type="text" id="ipInput">
+            <div class="mensaje" id="errorMessage" style="color: red;"></div>
+        </div>
+        <div class="right-block">
+            <h2>Reglas</h2>
+            <ul class="listaReglas">
+                <li class="regla">Primer carácter no puede ser un punto '.'.</li>
+                <li class="regla">Máxima longitud de la cadena 15 caracteres.</li>
+                <li class="regla">Mínima longitud de cadena 7 caracteres.</li>
+                <li class="regla">Máximo 3 caracteres de punto.</li>
+                <li class="regla">Máximo 4 grupos de 3 dígitos.</li>
+                <li class="regla">No se permiten ceros al principio del grupo de 3 dígitos.</li>
+                <li class="regla">Rango permitido por grupo entre 0 y 255.</li>
+                <li class="regla">No se permiten puntos consecutivos.</li>
+                <li class="regla">Se autocompletara el punto después de digitar 3 caracteres numéricos consecutivos.</li>
+                <li class="regla">Solo se permiten caracteres numéricos y el punto, no se permiten letras u otros caracteres especiales.</li>
+                <li class="regla">No se permite copiar y pegar en el cuadro de texto.</li>
+                <!-- Agrega más reglas según sea necesario -->
+            </ul>
+        </div>
+    </div>
+    <script src="app.js" defer></script>
+</body>
+
+</html>
